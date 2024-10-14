@@ -34,8 +34,8 @@ Para ejecutar las pruebas, sigue estos pasos:
 1. Clona el repositorio desde GitHub:
 2. bash
 git clone https://github.com/DomorQ/SerenityE2E/
-cd SerenityE2E
 
+cd SerenityE2E
 
 2. Ejecuta las pruebas usando Gradle:
 
