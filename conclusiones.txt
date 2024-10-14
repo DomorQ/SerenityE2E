@@ -1,0 +1,27 @@
+# Conclusiones del Proyecto de Serenity BDD
+
+1. **Cuidado con los Escenarios**:
+   - Es crucial definir claramente los escenarios que se van a probar. Un entendimiento claro de los flujos de usuario y los casos de prueba es esencial para asegurar que las pruebas cubran todos los aspectos necesarios del sistema.
+
+2. **Identificadores Bien Declarados**:
+   - Asegúrate de que todos los identificadores de elementos en las páginas estén correctamente declarados. Esto incluye IDs, nombres de clase, y cualquier otro selector CSS o XPath utilizado para interactuar con los elementos de la interfaz de usuario.
+
+3. **Comparaciones de Texto**:
+   - Al realizar comparaciones de texto, verifica que el texto esperado esté correctamente definido y que coincida exactamente con el texto en la página. Esto incluye tener en cuenta mayúsculas, espacios y caracteres especiales.
+
+4. **Manejo de Scrolls y Ubicaciones de Botones**:
+   - Es importante manejar adecuadamente los desplazamientos (scrolls) y asegurarse de que los botones y otros elementos interactivos estén visibles y accesibles antes de intentar interactuar con ellos.
+
+5. **Variables de Entorno y Dependencias**:
+   - Define claramente las variables de entorno y asegúrate de que todas las dependencias estén correctamente configuradas. Esto es especialmente importante si se planea utilizar diferentes configuraciones de reporte con Cucumber.
+
+6. **Reportes de Cucumber**:
+   - Si se desea manejar diferentes tipos de reportes, es importante configurar correctamente las opciones de Cucumber y asegurarse de que los reportes generados sean claros y útiles para el análisis de resultados.
+
+7. **Patrón de Diseño Screenplay**:
+   - Es fundamental tener en cuenta el patrón de diseño Screenplay, ya que su manera de estructurar las interacciones y peticiones es muy detallada. Se debe prestar especial atención a cómo se definen y organizan las tareas y acciones para mantener la claridad y la mantenibilidad del código.
+
+8. **Configuración del `build.gradle`**:
+   - Asegúrate de que el archivo `build.gradle` esté correctamente configurado con todas las dependencias necesarias para Serenity BDD y Cucumber. Esto incluye especificar las versiones correctas de las bibliotecas y plugins necesarios.
+
+Estas conclusiones reflejan los aprendizajes y consideraciones clave al trabajar con Serenity BDD en un entorno de pruebas automatizadas.
