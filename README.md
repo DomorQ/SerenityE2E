@@ -66,10 +66,6 @@ La prueba automatizada realiza los siguientes pasos en el sitio [SauceDemo](http
 4. Completar el formulario de compra.
 5. Finalizar la compra hasta la confirmación: "THANK YOU FOR YOUR ORDER".
 
-## Conclusiones
-
-Por favor, consulta el archivo `conclusiones.txt` para obtener información sobre los hallazgos y conclusiones del ejercicio.
-
 ## Contribuciones
 
 Si deseas contribuir a este proyecto, por favor crea un fork del repositorio y envía un pull request con tus cambios.
